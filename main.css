@@ -1,0 +1,91 @@
+/**
+ * Theodore Roosevelt.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+body {
+  background-image: url('background.jpg');
+  color: #534a47;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#all {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#website-title {
+  margin: 0;
+}
+
+#website-title-link {
+  color: #648293;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+#website-subtitle {
+  color: #D94D4A;
+  font-size: 2em;
+}
+
+.navbar {
+  border: 1px solid #DCDCD1;
+  border-width: 1px 0;
+}
+
+.navbar, .navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  position: relative;
+}
+
+.navbar > li {
+  margin-right: 40px;
+}
+
+.navbar a {
+  color: #914A47;
+  line-height: 45px;
+  text-decoration: none;
+}
+
+.navbar > li > a {
+  height: 45px;
+  vertical-align: center;
+  display: inline-block;
+}
+
+.navbar > li > a:hover {
+  border-bottom: 1px solid #ca4c3f;
+  height: 44px;
+}
+
+.navbar li ul li {
+  display: block;
+}
+
+.navbar ul {
+  background: #914A47;
+  display: none;
+  position: absolute;
+  top: 46px;
+  width: 200px;
+  left: 0;
+}
+
+.navbar ul a {
+  color: #DCDCD1;
+}
+
+footer {
+  display: block;
+  border: 1px solid #DCDCD1;
+  border-width: 1px 0 0 0;
+  padding: 10px;
+}
